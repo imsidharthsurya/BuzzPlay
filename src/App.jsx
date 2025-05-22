@@ -1,12 +1,13 @@
 import React from 'react'
+import Header from './components/Header'
 
 function App() {
 
   return (
     <>
-      <p className='bg-red-300'>Hello world!</p>
+      <Header/>
     </>
   )
 }
 
-export default App
+export default App;
